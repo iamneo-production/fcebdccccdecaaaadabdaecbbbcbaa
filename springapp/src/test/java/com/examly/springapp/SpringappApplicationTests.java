@@ -153,11 +153,6 @@ class SpringappApplicationTests {
         assertTrue(file.exists() && file.isFile()); 
     }
 
-    private boolean isSupportedDatatype(Class<?> datatype) {
-        // Add all the supported datatypes you want to test here
-        return datatype == int.class || datatype == String.class || datatype == String.class;
-    }
-
 	
 
 }
